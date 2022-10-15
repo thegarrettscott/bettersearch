@@ -10,5 +10,5 @@
   "description":              "Inject html",
   "name":                     "Inject html",
   "version":                  "1",
-  "web_accessible_resources": ["test.html","iframeInjector.js"]
+  "web_accessible_resources": ["test.html"]
 }
