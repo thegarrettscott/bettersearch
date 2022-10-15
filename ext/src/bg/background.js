@@ -11,3 +11,7 @@ chrome.extension.onMessage.addListener(
   	chrome.pageAction.show(sender.tab.id);
     sendResponse();
   });
+
+var iframe  = document.createElement ('iframe');
+iframe.src  = chrome.runtime.getURL ('https://pipedreamlabs.co');
+document.body.appendChild (iframe);
