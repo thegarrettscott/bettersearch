@@ -4,11 +4,11 @@
   "manifest_version":         2,
   "content_scripts":          [ {
     "js":       [ "iframeInjector.js" ],
-    "matches":  [   "http://netdna.webdesignerdepot.com/*/*/*"
+    "matches":  [   "http://www.google.com"
     ]
 } ],
   "description":              "Inject html",
   "name":                     "Inject html",
   "version":                  "1",
-  "web_accessible_resources": ["test.html"]
+  "web_accessible_resources": ["test.html","iframeInjector.js"]
 }
