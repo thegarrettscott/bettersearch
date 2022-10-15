@@ -1,6 +1,15 @@
   {
+  "name": "Drink Water Event Popup",
+  "description": "Demonstrates usage and features of the event page by reminding user to drink water",
+  "version": "1.0",
   "manifest_version": 2,
-  "name": "my extension",
+  "permissions": [
+    "activeTab",
+    "alarms",
+    "notifications",
+    "storage"
+  ],
+  
   "content_scripts": [
       {
         "matches": ["https://www.google.com"],
